@@ -56,33 +56,3 @@ Email: contact@manhtuong.net
 
 Password: Abcd1234
 ```
-Limit Upload:
-edit file: /home/acunetix/.acunetix/data/general/settings.xml
-
-```
-                <ContentTypeSettings>
-                        <ContentType Kind="text/*" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="application/json" Fetch="1" Parser="JSON"></ContentType>
-                        <ContentType Kind="application/vnd.msword" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="application/msword" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="application/vnd.ms-excel" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="application/ms-excel" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="application/vnd.sun.wadl+xml" Fetch="1" Parser=""></ContentType>
-                        <ContentType Kind="text/html" Fetch="1" Parser="HTML"></ContentType>
-                        <ContentType Kind="text/xhtml" Fetch="1" Parser="HTML"></ContentType>
-                        <ContentType Kind="text/vnd.wap.wml" Fetch="1" Parser="HTML"></ContentType>
-                        <ContentType Kind="application/xhtml+xml" Fetch="1" Parser="HTML"></ContentType>
-                        <ContentType Kind="application/x-shockwave-flash" Fetch="1" Parser="Flash"></ContentType>
-                        <ContentType Kind="application/x-javascript" Fetch="1" Parser="JS"></ContentType>
-                        <ContentType Kind="javascript/x-javascript" Fetch="1" Parser="JS"></ContentType>
-                        <ContentType Kind="application/javascript" Fetch="1" Parser="JS"></ContentType>
-                        <ContentType Kind="text/css" Fetch="1" Parser="CSS"></ContentType>
-                        <ContentType Kind="text/xml" Fetch="1" Parser="RSS"></ContentType>
-                        <ContentType Kind="application/xml" Fetch="1" Parser="XML"></ContentType>
-                        <ContentType Kind="application/atom+xml" Fetch="1" Parser="XML"></ContentType>
-                        <ContentType Kind="application/rss+xml" Fetch="1" Parser="RSS"></ContentType>
-                        <ContentType Kind="application/rdf+xml" Fetch="1" Parser="RSS"></ContentType>
-                        <ContentType Kind="application/soap+xml" Fetch="1" Parser="XML"></ContentType>
-                </ContentTypeSettings>
-
-```
