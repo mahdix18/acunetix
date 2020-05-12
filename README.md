@@ -45,7 +45,7 @@ Run:
 
 hub and docker: https://hub.docker.com/r/vouu/acu
 
-Run `dokcer run -it -d -p 443:3443 vouu/acu`
+Run `docker run -it -d -p 443:3443 vouu/acu`
 
 Login Info
 
